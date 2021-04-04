@@ -1,4 +1,4 @@
-FROM tomcat
+FROM tomcat:10.0-jdk16-corretto
 
 COPY . .
 
